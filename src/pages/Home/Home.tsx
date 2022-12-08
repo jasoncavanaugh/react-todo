@@ -46,14 +46,13 @@ export function Home() {
             type="button"
             className="border flex items-center justify-center w-8 h-8 rounded-full bg-red-500  text-sm text-white hover:brightness-110"
           >
-            {/* <img src="./x.svg" alt="" /> */}
             <Modal.Root>
               <Modal.Trigger asChild>
                 <i className="material-icons text-base">clear</i>
               </Modal.Trigger>
               <Modal.Portal>
                 <Modal.Overlay className="modal-overlay bg-slate-200" />
-                <Modal.Content className="border-t-8 border-t-red-500 p-0 w-[100px] modal-content flex flex-col drop-shadow-lg">
+                <Modal.Content className="border-t-8 border-t-red-500 p-6 w-[380px] modal-content flex flex-col drop-shadow-lg">
                   <Modal.Title className="m-0 flex justify-center text-xl font-bold text-slate-900">
                     Remove User
                   </Modal.Title>
@@ -72,11 +71,6 @@ export function Home() {
                       </button>
                     </Modal.Close>
                   </div>
-                  {/* <Modal.Close asChild>
-                    <button className="IconButton" aria-label="Close">
-                      x
-                    </button>
-                  </Modal.Close> */}
                 </Modal.Content>
               </Modal.Portal>
             </Modal.Root>
