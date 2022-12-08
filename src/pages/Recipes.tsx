@@ -3,8 +3,10 @@ import { Navbar } from "../components/Navbar";
 export function Recipes() {
   return (
     <>
-      <div className="grow">Recipes</div>
-      <Navbar selected="menu_book" />
+      <h1 className="text-teal-600 text-3xl font-bold h-16 flex justify-center items-center">
+        Recipes
+      </h1>
+      Recipes
     </>
   );
 }

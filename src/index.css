@@ -2,3 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+.r {
+  border: 1px solid red;
+}
+.b {
+  border: 1px solid blue;
+}
